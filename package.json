@@ -1,0 +1,17 @@
+{
+  "name": "aws-h4b",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "format": "prettier . --write",
+    "build": "echo javascript:$(esbuild main.js --bundle --minify)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "^0.23.1",
+    "prettier": "^3.3.3"
+  }
+}
